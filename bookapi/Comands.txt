@@ -1,0 +1,169 @@
+Comands
+
+Last login: Fri Sep 23 07:49:54 on console
+Mac-mini-de-EMEDINA:~ eduardomedina$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (eduardomedina) BookAPI
+Sorry, name can no longer contain capital letters.
+name: (eduardomedina) bookapi
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/eduardomedina/package.json:
+
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+Mac-mini-de-EMEDINA:~ eduardomedina$ cd /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi 
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (bookapi) bookapi
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/package.json:
+
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install express --save
+npm WARN package.json bookapi@1.0.0 No description
+npm WARN package.json bookapi@1.0.0 No repository field.
+npm WARN package.json bookapi@1.0.0 No README data
+express@4.14.0 node_modules/express
+├── escape-html@1.0.3
+├── array-flatten@1.1.1
+├── utils-merge@1.0.0
+├── cookie-signature@1.0.6
+├── merge-descriptors@1.0.1
+├── content-type@1.0.2
+├── cookie@0.3.1
+├── methods@1.1.2
+├── etag@1.7.0
+├── encodeurl@1.0.1
+├── content-disposition@0.5.1
+├── vary@1.1.0
+├── path-to-regexp@0.1.7
+├── range-parser@1.2.0
+├── parseurl@1.3.1
+├── fresh@0.3.0
+├── serve-static@1.11.1
+├── depd@1.1.0
+├── qs@6.2.0
+├── finalhandler@0.5.0 (unpipe@1.0.0, statuses@1.3.0)
+├── on-finished@2.3.0 (ee-first@1.1.1)
+├── debug@2.2.0 (ms@0.7.1)
+├── proxy-addr@1.1.2 (forwarded@0.1.0, ipaddr.js@1.1.1)
+├── send@0.14.1 (destroy@1.0.4, ms@0.7.1, statuses@1.3.0, mime@1.3.4, http-errors@1.5.0)
+├── type-is@1.6.13 (media-typer@0.3.0, mime-types@2.1.12)
+└── accepts@1.3.3 (negotiator@0.6.1, mime-types@2.1.12)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1
+(function (exports, require, module, __filename, __dirname) { app.js
+                                                              ^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1:63)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1
+(function (exports, require, module, __filename, __dirname) { app.js
+                                                              ^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1:63)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:5
+var port process.enV.PORT || 3000;
+         ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:5
+var port process.enV.PORT || 3000;
+         ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+Running on PORT: 3000
+
+ctrl + c
