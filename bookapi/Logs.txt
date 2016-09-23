@@ -1,0 +1,551 @@
+Last login: Fri Sep 23 07:49:54 on console
+Mac-mini-de-EMEDINA:~ eduardomedina$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (eduardomedina) BookAPI
+Sorry, name can no longer contain capital letters.
+name: (eduardomedina) bookapi
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/eduardomedina/package.json:
+
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+Mac-mini-de-EMEDINA:~ eduardomedina$ cd /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi 
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (bookapi) bookapi
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/package.json:
+
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install express --save
+npm WARN package.json bookapi@1.0.0 No description
+npm WARN package.json bookapi@1.0.0 No repository field.
+npm WARN package.json bookapi@1.0.0 No README data
+express@4.14.0 node_modules/express
+├── escape-html@1.0.3
+├── array-flatten@1.1.1
+├── utils-merge@1.0.0
+├── cookie-signature@1.0.6
+├── merge-descriptors@1.0.1
+├── content-type@1.0.2
+├── cookie@0.3.1
+├── methods@1.1.2
+├── etag@1.7.0
+├── encodeurl@1.0.1
+├── content-disposition@0.5.1
+├── vary@1.1.0
+├── path-to-regexp@0.1.7
+├── range-parser@1.2.0
+├── parseurl@1.3.1
+├── fresh@0.3.0
+├── serve-static@1.11.1
+├── depd@1.1.0
+├── qs@6.2.0
+├── finalhandler@0.5.0 (unpipe@1.0.0, statuses@1.3.0)
+├── on-finished@2.3.0 (ee-first@1.1.1)
+├── debug@2.2.0 (ms@0.7.1)
+├── proxy-addr@1.1.2 (forwarded@0.1.0, ipaddr.js@1.1.1)
+├── send@0.14.1 (destroy@1.0.4, ms@0.7.1, statuses@1.3.0, mime@1.3.4, http-errors@1.5.0)
+├── type-is@1.6.13 (media-typer@0.3.0, mime-types@2.1.12)
+└── accepts@1.3.3 (negotiator@0.6.1, mime-types@2.1.12)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1
+(function (exports, require, module, __filename, __dirname) { app.js
+                                                              ^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1:63)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1
+(function (exports, require, module, __filename, __dirname) { app.js
+                                                              ^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:1:63)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:5
+var port process.enV.PORT || 3000;
+         ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/app.js:5
+var port process.enV.PORT || 3000;
+         ^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:974:3
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ node app.js
+Running on PORT: 3000
+node app.js
+node app.js
+:wq
+^C
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install gulp -g
+npm ERR! tar.unpack untar error /Users/eduardomedina/.npm/gulp/3.9.1/package.tgz
+npm ERR! Darwin 15.6.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp" "-g"
+npm ERR! node v4.5.0
+npm ERR! npm  v2.15.9
+npm ERR! path /usr/local/lib/node_modules/gulp
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall mkdir
+
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gulp'
+npm ERR!     at Error (native)
+npm ERR!  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gulp']
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/gulp',
+npm ERR!   fstream_type: 'Directory',
+npm ERR!   fstream_path: '/usr/local/lib/node_modules/gulp',
+npm ERR!   fstream_class: 'DirWriter',
+npm ERR!   fstream_stack: 
+npm ERR!    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+npm ERR!      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+npm ERR!      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/npm-debug.log
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install gulp -g
+npm ERR! tar.unpack untar error /Users/eduardomedina/.npm/gulp/3.9.1/package.tgz
+npm ERR! Darwin 15.6.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp" "-g"
+npm ERR! node v4.5.0
+npm ERR! npm  v2.15.9
+npm ERR! path /usr/local/lib/node_modules/gulp
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall mkdir
+
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gulp'
+npm ERR!     at Error (native)
+npm ERR!  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gulp']
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/gulp',
+npm ERR!   fstream_type: 'Directory',
+npm ERR!   fstream_path: '/usr/local/lib/node_modules/gulp',
+npm ERR!   fstream_class: 'DirWriter',
+npm ERR!   fstream_stack: 
+npm ERR!    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+npm ERR!      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+npm ERR!      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/npm-debug.log
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install gulp -g
+npm ERR! tar.unpack untar error /Users/eduardomedina/.npm/gulp/3.9.1/package.tgz
+npm ERR! Darwin 15.6.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp" "-g"
+npm ERR! node v4.5.0
+npm ERR! npm  v2.15.9
+npm ERR! path /usr/local/lib/node_modules/gulp
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall mkdir
+
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gulp'
+npm ERR!     at Error (native)
+npm ERR!  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/gulp']
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/gulp',
+npm ERR!   fstream_type: 'Directory',
+npm ERR!   fstream_path: '/usr/local/lib/node_modules/gulp',
+npm ERR!   fstream_class: 'DirWriter',
+npm ERR!   fstream_stack: 
+npm ERR!    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+npm ERR!      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+npm ERR!      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/npm-debug.log
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ sudo npm gulp -g
+Password:
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, add-user, adduser, apihelp, author, bin, bugs, c,
+    cache, completion, config, ddp, dedupe, deprecate, dist-tag,
+    dist-tags, docs, edit, explore, faq, find, find-dupes, get,
+    help, help-search, home, i, info, init, install, issues, la,
+    link, list, ll, ln, login, logout, ls, outdated, owner,
+    pack, ping, prefix, prune, publish, r, rb, rebuild, remove,
+    repo, restart, rm, root, run-script, s, se, search, set,
+    show, shrinkwrap, star, stars, start, stop, t, tag, team,
+    test, tst, un, uninstall, unlink, unpublish, unstar, up,
+    update, upgrade, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/eduardomedina/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@2.15.9 /usr/local/lib/node_modules/npm
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ sudo npm gulp -g
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, add-user, adduser, apihelp, author, bin, bugs, c,
+    cache, completion, config, ddp, dedupe, deprecate, dist-tag,
+    dist-tags, docs, edit, explore, faq, find, find-dupes, get,
+    help, help-search, home, i, info, init, install, issues, la,
+    link, list, ll, ln, login, logout, ls, outdated, owner,
+    pack, ping, prefix, prune, publish, r, rb, rebuild, remove,
+    repo, restart, rm, root, run-script, s, se, search, set,
+    show, shrinkwrap, star, stars, start, stop, t, tag, team,
+    test, tst, un, uninstall, unlink, unpublish, unstar, up,
+    update, upgrade, v, version, view, whoami
+
+npm <cmd> -h     quick help on <cmd>
+npm -l           display full usage info
+npm faq          commonly asked questions
+npm help <term>  search for help on <term>
+npm help npm     involved overview
+
+Specify configs in the ini-formatted file:
+    /Users/eduardomedina/.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@2.15.9 /usr/local/lib/node_modules/npm
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ sudo npm install gulp -g
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated lodash@1.0.2: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+/usr/local/bin/gulp -> /usr/local/lib/node_modules/gulp/bin/gulp.js
+gulp@3.9.1 /usr/local/lib/node_modules/gulp
+├── interpret@1.0.1
+├── pretty-hrtime@1.0.2
+├── deprecated@0.0.1
+├── archy@1.0.0
+├── minimist@1.2.0
+├── semver@4.3.6
+├── tildify@1.2.0 (os-homedir@1.0.1)
+├── v8flags@2.0.11 (user-home@1.1.1)
+├── chalk@1.1.3 (escape-string-regexp@1.0.5, ansi-styles@2.2.1, supports-color@2.0.0, has-ansi@2.0.0, strip-ansi@3.0.1)
+├── orchestrator@0.3.7 (sequencify@0.0.7, stream-consume@0.1.0, end-of-stream@0.1.5)
+├── vinyl-fs@0.3.14 (strip-bom@1.0.0, graceful-fs@3.0.11, vinyl@0.4.6, defaults@1.0.3, mkdirp@0.5.1, through2@0.6.5, glob-stream@3.1.18, glob-watcher@0.0.6)
+├── liftoff@2.3.0 (lodash.isplainobject@4.0.6, lodash.isstring@4.0.1, lodash.mapvalues@4.6.0, rechoir@0.6.2, extend@3.0.0, flagged-respawn@0.3.2, resolve@1.1.7, fined@1.0.1, findup-sync@0.4.2)
+└── gulp-util@3.0.7 (array-differ@1.0.0, lodash._reevaluate@3.0.0, beeper@1.1.0, lodash._reescape@3.0.0, lodash._reinterpolate@3.0.0, object-assign@3.0.0, array-uniq@1.0.3, replace-ext@0.0.1, has-gulplog@0.1.0, fancy-log@1.2.0, vinyl@0.5.3, gulplog@1.0.0, lodash.template@3.6.2, through2@2.0.1, multipipe@0.1.2, dateformat@1.0.12)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ nmp gulp --save
+-bash: nmp: command not found
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install gulp --save
+npm WARN package.json bookapi@1.0.0 No description
+npm WARN package.json bookapi@1.0.0 No repository field.
+npm WARN package.json bookapi@1.0.0 No README data
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated lodash@1.0.2: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+gulp@3.9.1 node_modules/gulp
+├── interpret@1.0.1
+├── pretty-hrtime@1.0.2
+├── deprecated@0.0.1
+├── archy@1.0.0
+├── minimist@1.2.0
+├── tildify@1.2.0 (os-homedir@1.0.1)
+├── semver@4.3.6
+├── v8flags@2.0.11 (user-home@1.1.1)
+├── chalk@1.1.3 (escape-string-regexp@1.0.5, ansi-styles@2.2.1, supports-color@2.0.0, has-ansi@2.0.0, strip-ansi@3.0.1)
+├── orchestrator@0.3.7 (stream-consume@0.1.0, sequencify@0.0.7, end-of-stream@0.1.5)
+├── vinyl-fs@0.3.14 (strip-bom@1.0.0, defaults@1.0.3, vinyl@0.4.6, graceful-fs@3.0.11, mkdirp@0.5.1, through2@0.6.5, glob-stream@3.1.18, glob-watcher@0.0.6)
+├── liftoff@2.3.0 (lodash.isstring@4.0.1, lodash.isplainobject@4.0.6, lodash.mapvalues@4.6.0, rechoir@0.6.2, extend@3.0.0, flagged-respawn@0.3.2, resolve@1.1.7, fined@1.0.1, findup-sync@0.4.2)
+└── gulp-util@3.0.7 (array-differ@1.0.0, lodash._reevaluate@3.0.0, object-assign@3.0.0, lodash._reinterpolate@3.0.0, lodash._reescape@3.0.0, array-uniq@1.0.3, beeper@1.1.0, replace-ext@0.0.1, fancy-log@1.2.0, has-gulplog@0.1.0, vinyl@0.5.3, gulplog@1.0.0, lodash.template@3.6.2, through2@2.0.1, multipipe@0.1.2, dateformat@1.0.12)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install gulp -g
+npm ERR! Darwin 15.6.0
+npm ERR! argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "gulp" "-g"
+npm ERR! node v4.5.0
+npm ERR! npm  v2.15.9
+npm ERR! path /usr/local/bin/gulp
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall unlink
+
+npm ERR! Error: EACCES: permission denied, unlink '/usr/local/bin/gulp'
+npm ERR!     at Error (native)
+npm ERR!  { [Error: EACCES: permission denied, unlink '/usr/local/bin/gulp']
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'unlink',
+npm ERR!   path: '/usr/local/bin/gulp' }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+npm ERR! error rolling back Error: EACCES: permission denied, unlink '/usr/local/bin/gulp'
+npm ERR! error rolling back     at Error (native)
+npm ERR! error rolling back  { [Error: EACCES: permission denied, unlink '/usr/local/bin/gulp']
+npm ERR! error rolling back   errno: -13,
+npm ERR! error rolling back   code: 'EACCES',
+npm ERR! error rolling back   syscall: 'unlink',
+npm ERR! error rolling back   path: '/usr/local/bin/gulp' }
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/npm-debug.log
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ sudo npm install gulp -g
+Password:
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated lodash@1.0.2: lodash@<3.0.0 is no longer maintained. Upgrade to lodash@^4.0.0.
+npm WARN deprecated graceful-fs@1.2.3: graceful-fs v3.0.0 and before will fail on node releases >= v7.0. Please update to graceful-fs@^4.0.0 as soon as possible. Use 'npm ls graceful-fs' to find it in the tree.
+/usr/local/bin/gulp -> /usr/local/lib/node_modules/gulp/bin/gulp.js
+gulp@3.9.1 /usr/local/lib/node_modules/gulp
+├── pretty-hrtime@1.0.2
+├── interpret@1.0.1
+├── deprecated@0.0.1
+├── archy@1.0.0
+├── minimist@1.2.0
+├── semver@4.3.6
+├── tildify@1.2.0 (os-homedir@1.0.1)
+├── v8flags@2.0.11 (user-home@1.1.1)
+├── chalk@1.1.3 (ansi-styles@2.2.1, escape-string-regexp@1.0.5, supports-color@2.0.0, strip-ansi@3.0.1, has-ansi@2.0.0)
+├── orchestrator@0.3.7 (stream-consume@0.1.0, sequencify@0.0.7, end-of-stream@0.1.5)
+├── liftoff@2.3.0 (lodash.isstring@4.0.1, lodash.isplainobject@4.0.6, lodash.mapvalues@4.6.0, extend@3.0.0, rechoir@0.6.2, flagged-respawn@0.3.2, resolve@1.1.7, fined@1.0.1, findup-sync@0.4.2)
+├── vinyl-fs@0.3.14 (strip-bom@1.0.0, vinyl@0.4.6, graceful-fs@3.0.11, defaults@1.0.3, mkdirp@0.5.1, through2@0.6.5, glob-stream@3.1.18, glob-watcher@0.0.6)
+└── gulp-util@3.0.7 (array-differ@1.0.0, array-uniq@1.0.3, beeper@1.1.0, object-assign@3.0.0, lodash._reescape@3.0.0, lodash._reevaluate@3.0.0, lodash._reinterpolate@3.0.0, replace-ext@0.0.1, has-gulplog@0.1.0, fancy-log@1.2.0, vinyl@0.5.3, gulplog@1.0.0, lodash.template@3.6.2, through2@2.0.1, multipipe@0.1.2, dateformat@1.0.12)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ npm install gulp-nodemon -save
+npm WARN package.json bookapi@1.0.0 No description
+npm WARN package.json bookapi@1.0.0 No repository field.
+npm WARN package.json bookapi@1.0.0 No README data
+|
+> fsevents@1.0.14 install /Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/node_modules/gulp-nodemon/node_modules/nodemon/node_modules/chokidar/node_modules/fsevents
+> node-pre-gyp install --fallback-to-build
+
+[fsevents] Success: "/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/node_modules/gulp-nodemon/node_modules/nodemon/node_modules/chokidar/node_modules/fsevents/lib/binding/Release/node-v46-darwin-x64/fse.node" already installed
+Pass --update-binary to reinstall or --build-from-source to recompile
+gulp-nodemon@2.1.0 node_modules/gulp-nodemon
+├── colors@1.1.2
+├── event-stream@3.3.4 (pause-stream@0.0.11, duplexer@0.1.1, from@0.1.3, stream-combiner@0.0.4, map-stream@0.1.0, split@0.3.3, through@2.3.8)
+└── nodemon@1.10.2 (ignore-by-default@1.0.1, undefsafe@0.0.3, ps-tree@1.1.0, es6-promise@3.3.1, debug@2.2.0, minimatch@3.0.3, touch@1.0.0, lodash.defaults@3.1.2, update-notifier@0.5.0, chokidar@1.6.0)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ gulp
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/gulpfile.js:6
+    script: 'app.js';
+                    ^
+
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Liftoff.handleArguments (/usr/local/lib/node_modules/gulp/bin/gulp.js:116:3)
+    at Liftoff.<anonymous> (/usr/local/lib/node_modules/gulp/node_modules/liftoff/index.js:198:16)
+    at module.exports (/usr/local/lib/node_modules/gulp/node_modules/liftoff/node_modules/flagged-respawn/index.js:17:3)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ gulp
+/Users/eduardomedina/Documents/emedinaa/NodeJs/bookapi/gulpfile.js:11
+    ignore :['./node_modules/**']
+    ^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Liftoff.handleArguments (/usr/local/lib/node_modules/gulp/bin/gulp.js:116:3)
+    at Liftoff.<anonymous> (/usr/local/lib/node_modules/gulp/node_modules/liftoff/index.js:198:16)
+    at module.exports (/usr/local/lib/node_modules/gulp/node_modules/liftoff/node_modules/flagged-respawn/index.js:17:3)
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ gulp
+[15:03:10] Using gulpfile ~/Documents/emedinaa/NodeJs/bookapi/gulpfile.js
+[15:03:10] Starting 'default'...
+[15:03:10] Finished 'default' after 2.1 ms
+[15:03:10] [nodemon] 1.10.2
+[15:03:10] [nodemon] to restart at any time, enter `rs`
+[15:03:10] [nodemon] watching: *.*
+[15:03:10] [nodemon] starting `node app.js`
+Running on PORT: 8000
+[15:07:15] [nodemon] restarting due to changes...
+Restarting
+[15:07:15] [nodemon] starting `node app.js`
+Gulp is running my app on PORT: 8000
+^CMac-mini-de-EMEDINA:bookapi eduardomedina$ cd /Users/eduardomedina/Documents/edinaa/NodeJs/repo 
+Mac-mini-de-EMEDINA:repo eduardomedina$ git clone https://github.com/emedinaa/learningnodejs.git
+Cloning into 'learningnodejs'...
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Mac-mini-de-EMEDINA:repo eduardomedina$ ls
+learningnodejs
+Mac-mini-de-EMEDINA:repo eduardomedina$ cd learningnodejs/
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ ls
+README.md bookapi
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ touch .gitignore
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ ls
+README.md bookapi
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ ls
+README.md bookapi
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ git add *
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ git add --aññ
+error: unknown option `aññ'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --chmod <(+/-)x>      override the executable bit of the listed files
+
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ git add --all
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ git commit -m "initial commit"
+[master ddd218a] initial commit
+ 5 files changed, 220 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 bookapi/Comands.txt
+ create mode 100644 bookapi/app.js
+ create mode 100644 bookapi/gulpfile.js
+ create mode 100644 bookapi/package.json
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ git push origin master
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 2.38 KiB | 0 bytes/s, done.
+Total 8 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/emedinaa/learningnodejs.git
+   0fe20f9..ddd218a  master -> master
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ ls
+README.md bookapi
+Mac-mini-de-EMEDINA:learningnodejs eduardomedina$ cd bookapi/
+Mac-mini-de-EMEDINA:bookapi eduardomedina$ gulp
+[15:30:56] Using gulpfile ~/Documents/emedinaa/NodeJs/repo/learningnodejs/bookapi/gulpfile.js
+[15:30:56] Starting 'default'...
+[15:30:56] Finished 'default' after 2 ms
+[15:30:56] [nodemon] 1.10.2
+[15:30:56] [nodemon] to restart at any time, enter `rs`
+[15:30:56] [nodemon] watching: *.*
+[15:30:56] [nodemon] starting `node app.js`
+Gulp is running my app on PORT: 8000
+^CMac-mini-de-EMEDINA:bookapi eduardomedina$ gulp
+[15:37:37] Using gulpfile ~/Documents/emedinaa/NodeJs/repo/learningnodejs/bookapi/gulpfile.js
+[15:37:37] Starting 'default'...
+[15:37:37] Finished 'default' after 2.84 ms
+[15:37:37] [nodemon] 1.10.2
+[15:37:37] [nodemon] to restart at any time, enter `rs`
+[15:37:37] [nodemon] watching: *.*
+[15:37:37] [nodemon] starting `node app.js`
+Gulp is running my app on PORT: 8000
+[15:37:56] [nodemon] restarting due to changes...
+Restarting
+[15:37:56] [nodemon] starting `node app.js`
+Gulp is running my app on PORT: 8000
+
